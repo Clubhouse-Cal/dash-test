@@ -6,21 +6,18 @@
     float: left;
     background-color: #2196F3;
     color: #ffffff;
-    width: 100px;
-    line-height: 100px;
+    width: 200px;
+    line-height: 250px;
     text-align: center;
     margin: 2px;
     display: none;  /* Hidden by default */
+    flex: 0 0 auto;
 }
 
-.scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-
-  .filterDiv {
-    display: inline-block;
-  }
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
 /* The "show" class is added to the filtered elements */

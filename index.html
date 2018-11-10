@@ -8,6 +8,7 @@
   <title>Clubhouse Dashboard</title>
 
   <link href="style.css" rel="stylesheet">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
 </head>
 
 <body>
@@ -20,9 +21,22 @@
   <button class="btn" onclick="filterSelection('colors')"> Colors</button>
 </div>
 
+<!-- DROPDOWN TESTING
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#" onclick="filterSelection('all')">Show all</a></li>
+      <li><a href="#" onclick="filterSelection('cars')">Cars</a></li>
+      <li><a href="#" onclick="filterSelection('animals')">Animals</a></li>
+      <li><a href="#" onclick="filterSelection('fruits')">Fruits</a></li>
+      <li><a href="#" onclick="filterSelection('colors')">Colors</a></li>
+    </ul>
+</div>-->
+
 <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
 <div class="container">
-  <div class="scrolling-wrapper">
+  <div class="scrolling-wrapper-flexbox">
   <div class="filterDiv cars">BMW</div>
   <div class="filterDiv colors fruits">Orange</div>
   <div class="filterDiv cars">Volvo</div>
@@ -41,9 +55,22 @@
   <div class="filterDiv animals">Cow</div>
   <div class="filterDiv animals">Cow</div>
   <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
+  <div class="filterDiv animals">Cow</div>
 </div>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="scripts.js"></script>
 
 </body>
